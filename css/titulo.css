@@ -1,0 +1,53 @@
+.titulo{
+    font-family: Montserrat, sans-serif;
+    background-image: url(../img/Fondo.png);
+    width: 100%;
+}
+
+.titulo__inicio{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2rem;
+    justify-content: space-evenly;
+
+}
+
+.titulo__imagen{
+    width: 20%;
+    align-items: baseline;
+    border-radius: 20%;
+    box-shadow: 0.5rem 0.5rem black;
+}
+
+.titulo__contenedor{
+    width: 50%;
+    align-items: end;
+}
+
+.titulo__principal{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.titulo__secundario{
+    text-align: justify;
+}
+
+.titulo__redes{
+    display: flex;
+}
+
+.titulo__redes--lista{
+    padding-top: 1rem;
+}
+
+.titulo__redes--item{
+    color: #505050;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.titulo__redes--item:hover{
+    text-decoration: underline;
+}

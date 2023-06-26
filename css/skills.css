@@ -1,0 +1,43 @@
+.skills{
+    font-family: Montserrat, sans-serif;
+    background-image: url(../img/Fondo.png);
+    width: 100%;
+}
+
+.skills__titulo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.skills__box{
+    display: flex;
+    justify-content: center;
+    width: 7rem;
+    padding: 2rem;
+    margin: 1% 1.5%;
+    box-shadow: 0.1rem 0.1rem black;
+    border-radius: 1rem;
+}
+
+.skills__img{
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.skills__name{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: .5rem;
+    text-align: center;
+}

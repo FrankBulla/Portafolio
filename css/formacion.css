@@ -1,0 +1,52 @@
+.formacion{
+    font-family: Montserrat, sans-serif;
+    background: #e2e1e1;
+    width: 100%;
+}
+
+.formacion__titulo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.formacion__cursos{
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+}
+
+.formacion__cursos--box{
+    background-color: #ffffff;
+    text-align: center;
+    width: 18rem;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border-radius: 50px;
+    box-shadow: 0.3rem 0.3rem black;
+}
+
+.formacion__cursos--item--academia{
+    font-weight: bold;
+}
+
+.formacion__cursos--item--img{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    padding: 2rem 5rem;
+}
+
+.formacion__cursos--item--title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: .5rem;
+    text-align: center;
+}
+
+.formacion__cursos--item--subtitle{
+    font-size: small;
+}

@@ -1,0 +1,22 @@
+.perfil{
+    font-family: Montserrat, sans-serif;
+    background: #e2e1e1;
+    width: 100%;
+}
+
+.perfil__contenedor{
+    padding: 5rem;
+    width: 55%;
+    justify-content: center;
+}
+
+.perfil__titulo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 7rem;
+}
+
+.perfil__parrafo{
+    text-align: justify;
+    padding-left: 7rem;
+}
