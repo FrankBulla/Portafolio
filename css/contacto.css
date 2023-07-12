@@ -1,0 +1,80 @@
+.contacto{
+    font-family: Montserrat, sans-serif;
+    background-image: url(../img/Fondo.png);
+    width: 100%;
+}
+
+.contacto__formulario{
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+}
+
+.contacto__titulo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+
+.contacto--imagen{
+    padding: 2rem;
+}
+
+.contacto__img{
+    border-radius: 20px;
+    box-shadow: 0px 24px 32px -5px rgba(0, 0, 0, 0.50); 
+}
+
+.contacto__texto{
+    background: lightgray;
+    border-radius: 20px;
+    box-shadow: 0px 24px 32px -5px rgba(0, 0, 0, 0.50);
+    padding: 2rem;
+}
+
+.contacto__titulo{
+    padding-top: 0.25rem;
+}
+
+.contacto__subtexto{
+    padding-top: 0.5rem;
+}
+
+.contacto__subtexto.instruccion{
+    font-size: 0.75rem;
+}
+
+.contacto__form{
+    padding-top: 1rem;
+}
+
+.contacto__input{
+    font-size: 1rem;
+    width: 95%;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    box-shadow: 0px 6px 8px -5px rgba(0, 0, 0, 0.50);
+}
+
+.contacto__textarea{
+    width: 95%;
+    height: 5rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0px 6px 8px -5px rgba(0, 0, 0, 0.50);
+}
+
+.contacto__boton{
+    width: 7rem;
+    height: 2rem;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 0.25rem;
+}
