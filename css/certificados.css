@@ -45,3 +45,9 @@
 .certificados__name.certificado{
     font-size: small;
 }
+
+@media screen and (max-width:900px){
+    .certificados__line{
+        justify-content: center;
+    }
+}

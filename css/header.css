@@ -3,7 +3,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding-left: 1rem;
     justify-content: space-around;
 }
 
@@ -13,15 +12,11 @@
     padding: 1rem;
 }
 
-.header__imagen{
-    width: 5rem;
-}
-
 .header__nombre{
     font-family: Montserrat, sans-serif;
-    font-size: 2rem;
     font-weight: bold;
-    padding-left: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .header__menu{
@@ -29,13 +24,11 @@
     font-family: Montserrat, sans-serif;
     font-size: 1rem;
     font-weight: bold;
-    margin-right: 3rem;
 }
 
 .header__menu--item{
     color: #505050;
     list-style: none;
-    justify-content: space-between;
     padding-left: 1rem;
     text-decoration: none;
 }
@@ -46,5 +39,31 @@
 
 .header__menu--item.contacto{
     color: #000000;
-    padding-left: 2.5rem;
 }
+
+@media screen and (max-width:900px) {
+    .header__imagen{
+       width: 40%;
+    }
+
+    .header__nombre{
+        font-size: 1rem;
+    }
+
+    .header__menu--item{
+        display: none;
+    }
+
+    .header__menu--item.contacto{
+        display: flex;
+        padding-left: 0.5rem;
+        font-size: 0.75rem;
+    }
+}
+
+
+
+
+
+
+

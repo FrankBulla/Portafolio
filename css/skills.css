@@ -41,3 +41,9 @@
     padding: .5rem;
     text-align: center;
 }
+
+@media screen and (max-width:900px){
+    .skills__line{
+        justify-content: center;
+    }
+}

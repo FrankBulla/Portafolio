@@ -5,18 +5,19 @@
 }
 
 .perfil__contenedor{
-    padding: 5rem;
-    width: 55%;
+    padding: 2rem;
+    align-items: center;
+    width: 85%;
     justify-content: center;
 }
 
 .perfil__titulo{
     font-weight: bold;
     font-size: 1.5rem;
-    padding-left: 7rem;
+    padding: 0.5rem;
 }
 
 .perfil__parrafo{
     text-align: justify;
-    padding-left: 7rem;
+    padding: 0.5rem;
 }

@@ -6,7 +6,7 @@
 
 .contacto__formulario{
     display: flex;
-    padding: 5rem;
+    padding: 2rem;
     justify-content: space-between;
 }
 
@@ -77,4 +77,14 @@
     border-radius: 0.5rem;
     cursor: pointer;
     margin-top: 0.25rem;
+}
+
+@media screen and (max-width:900px){
+    .contacto__formulario{
+        flex-direction: column;
+    }
+
+    .contacto__img{
+        width: 100%;
+    }
 }

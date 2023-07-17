@@ -12,17 +12,20 @@
 
 .formacion__cursos{
     display: flex;
-    padding: 5rem;
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 .formacion__cursos--box{
+    display: flex;
+    justify-content: center;
     background-color: #ffffff;
     text-align: center;
     width: 18rem;
     vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
+    margin: 2%;
+    padding: 20px;
     border-radius: 50px;
     box-shadow: 0px 24px 32px -5px rgba(0, 0, 0, 0.50);
 }
@@ -36,7 +39,7 @@
     justify-content: center;
     width: 150px;
     height: 150px;
-    padding: 2rem 5rem;
+    padding: 2rem 4rem;
 }
 
 .formacion__cursos--item--title{
@@ -49,4 +52,11 @@
 
 .formacion__cursos--item--subtitle{
     font-size: small;
+}
+
+@media screen and (max-width:900px){
+    .formacion__cursos{
+        flex-direction: column;
+        align-items: center;
+    }
 }
