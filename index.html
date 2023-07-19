@@ -273,12 +273,24 @@
                     <h3 class="contacto__subtexto">¿Crees que puedo ayudarte?</h3>
                     <h3 class="contacto__subtexto instruccion">Contáctame, envíame un mensaje y conectamos…</h3>
                     <form class="contacto__form" name="form" action="https://formsubmit.co/frankbulla78@gmail.com" method="POST">
-                        <input class="contacto__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="contacto__input" type="email" name="email" placeholder="E-mail">
-                        <input class="contacto__input" type="text" name="telefono" placeholder="Teléfono">
-                        <input class="contacto__input" type="text" name="ciudad" placeholder="Ciudad">
-                        <textarea class="contacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                        <button type="submit" class="contacto__boton">Enviar</button>
+                        <div class="contacto--campos">
+                            <input class="contacto__input" type="text" name="nombre" placeholder="Nombre y Apellido" required pattern="[\s\S]{4,30}" data-tipo="nombre">
+                            <span class="contacto--mensaje--error">Este campo no es valido</span>
+                        </div>
+                        <div class="contacto--campos">
+                            <input class="contacto__input" type="email" name="email" placeholder="E-mail" required data-tipo="email">
+                            <span class="contacto--mensaje--error">Este campo no es valido</span>
+                        </div>
+                        <div class="contacto--campos">
+                            <input class="contacto__input" type="text" name="telefono" placeholder="Teléfono" pattern="\d{10}" required minlegth="10" maxlength="10" data-tipo="numero">
+                            <span class="contacto--mensaje--error">Este campo no es valido</span>
+                        </div>
+                        <div class="contacto--campos">
+                            <input class="contacto__input" type="text" name="ciudad" placeholder="Ciudad" required pattern="[\s\S]{4,30}" data-tipo="ciudad">
+                            <span class="contacto--mensaje--error">Este campo no es valido</span>
+                        </div>
+                            <textarea class="contacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                            <button type="submit" class="contacto__boton">Enviar</button>
                     </form>
                 </div>
             </div>
@@ -289,6 +301,8 @@
     <footer>
 
     </footer>
+
+    <script src="/app.js" type="module"></script>
     
 </body>
 </html>
