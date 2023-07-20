@@ -1,6 +1,6 @@
 import { valida } from "./validacion";
 
-const inputs = document.querySelectorAll(".contacto__input");
+const inputs = document.querySelectorAll("input");
 
 inputs.forEach((input) => {
   input.addEventListener("blur", (input) => {

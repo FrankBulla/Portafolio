@@ -1,0 +1,30 @@
+.footer{
+    font-family: Montserrat, sans-serif;
+    background: darkgray;
+    align-items: center;
+}
+
+.footer__rodapie{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer__img{
+    width: 5rem;
+    padding-left: 3rem;
+}
+
+.copyright{
+    font-weight: bold;
+    padding-right: 3rem;
+}
+
+@media screen and (max-width:768px){
+    .copyright{
+        font-size: 14px;
+        padding-left: 0.75rem;
+    }
+
+}

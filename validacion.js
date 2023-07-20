@@ -18,7 +18,6 @@ export function valida(input) {
     "valueMissing",
     "typeMismatch",
     "patternMismatch",
-    "customError",
   ];
   
   const mensajesDeError = {
@@ -35,7 +34,7 @@ export function valida(input) {
         },
         ciudad: {
         valueMissing: "Este campo no puede estar vacío",
-        patternMismatch: "La ciudad debe contener entre 4 a 40 caracteres.",
+        patternMismatch: "La ciudad debe contener entre 4 a 30 caracteres.",
         },
     };
   

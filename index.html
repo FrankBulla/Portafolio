@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/certificados.css">
     <link rel="stylesheet" href="css/experiencia.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -274,20 +275,16 @@
                     <h3 class="contacto__subtexto instruccion">Contáctame, envíame un mensaje y conectamos…</h3>
                     <form class="contacto__form" name="form" action="https://formsubmit.co/frankbulla78@gmail.com" method="POST">
                         <div class="contacto--campos">
-                            <input class="contacto__input" type="text" name="nombre" placeholder="Nombre y Apellido" required pattern="[\s\S]{4,30}" data-tipo="nombre">
-                            <span class="contacto--mensaje--error">Este campo no es valido</span>
+                            <input name="name" id="name" class="contacto__input" type="text" placeholder="Nombre y Apellido" required minlength="3" maxlength="30" title="Completa tu nombre y apellido">
                         </div>
                         <div class="contacto--campos">
-                            <input class="contacto__input" type="email" name="email" placeholder="E-mail" required data-tipo="email">
-                            <span class="contacto--mensaje--error">Este campo no es valido</span>
+                            <input name="email" id="email" class="contacto__input" type="email" placeholder="Email" required title="El correo no es válido">
                         </div>
                         <div class="contacto--campos">
-                            <input class="contacto__input" type="text" name="telefono" placeholder="Teléfono" pattern="\d{10}" required minlegth="10" maxlength="10" data-tipo="numero">
-                            <span class="contacto--mensaje--error">Este campo no es valido</span>
+                            <input name="phoneNumber" id="phoneNumber" class="contacto__input" type="text" placeholder="Número telefónico" required pattern="\d{10}" minlegth="10" maxlength="10" title="El formato requerido es de 10 números">
                         </div>
                         <div class="contacto--campos">
-                            <input class="contacto__input" type="text" name="ciudad" placeholder="Ciudad" required pattern="[\s\S]{4,30}" data-tipo="ciudad">
-                            <span class="contacto--mensaje--error">Este campo no es valido</span>
+                            <input name="city" id="city" class="contacto__input" type="text" placeholder="Ciudad" required pattern="[\s\S]{4,30}" title="La ciudad debe contener de 4 a 30 caracteres">
                         </div>
                             <textarea class="contacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
                             <button type="submit" class="contacto__boton">Enviar</button>
@@ -300,9 +297,14 @@
 
     <footer>
 
+        <section class="footer">
+            <div class="footer__rodapie">
+                <img class="footer__img" src="/img/IconoWeb 2023.png">
+                <p class="copyright">&copy Copyright | BULLA 2023</p>
+            </div>
+        </section>
+
     </footer>
 
-    <script src="/app.js" type="module"></script>
-    
 </body>
 </html>

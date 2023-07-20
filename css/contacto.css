@@ -17,11 +17,10 @@
 }
 
 .contacto--imagen{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .contacto__img{
-    height: 90%;
     border-radius: 20px;
     box-shadow: 0px 24px 32px -5px rgba(0, 0, 0, 0.50); 
 }
@@ -47,11 +46,7 @@
 }
 
 .contacto__form{
-    padding-top: 1rem;
-}
-
-.contacto--campos{
-    padding-top: 0.75rem;
+    padding-top: 2rem;
 }
 
 .contacto__input{
@@ -65,10 +60,8 @@
     box-shadow: 0px 6px 8px -5px rgba(0, 0, 0, 0.50);
 }
 
-.contacto--mensaje--error{
-    display: none;
-    font-size: 0.75rem;
-    color: black;
+input:invalid{
+    background: darkgray;
 }
 
 .contacto__textarea{
@@ -94,9 +87,12 @@
 @media screen and (max-width:900px){
     .contacto__formulario{
         flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
 
     .contacto__img{
         width: 100%;
     }
+
 }
